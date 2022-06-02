@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pinchos
+  m_Shader: {fileID: 4800000, guid: 9dd550f28e9cc4249819a8ea63c41f2a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: e706a2fc16732c7468d8e880eb349865, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: 0
+    - _Float1: 0
+    - _Float2: 0
+    - _Float3: 0
+    - _InteractSwitch: 0
+    - _OffsetShadow: 0
+    - _SizeFresnel: 3
+    - _Tilling: 0
+    - _UseTexture: 0
+    - __dirty: 0
+    m_Colors:
+    - _Activate: {r: 0, g: 0, b: 0, a: 0}
+    - _Color0: {r: 0.44339618, g: 0.23627517, b: 0, a: 0}
+    - _Color1: {r: 1, g: 0.6123595, b: 0, a: 0}
+    - _Desactivate: {r: 0.5660378, g: 0.29062733, b: 0, a: 0}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FresnelColor: {r: 0, g: 0.77254903, b: 1, a: 0}
+    - _ShadowFacet: {r: 0, g: 0, b: 0, a: 0}
+    - _TillingDetail: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

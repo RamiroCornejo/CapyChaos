@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5fe272d7a16f84b956dcc7037721bf, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  cost: 5
+  shopSprite: {fileID: 21300000, guid: b863829fb6b407741be67f9705d1823d, type: 3}
+  itemName: item.mage
+  headMesh: {fileID: 480910802289503177, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  bodyMesh: {fileID: -1868655812464640220, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  rightArmMesh: {fileID: -8208774675723453983, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  leftArmMesh: {fileID: -8208774675723453983, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  rightLegMesh: {fileID: 1908981683980713483, guid: 7a56ddb485fbf604cbdd7871b4097546, type: 3}
+  leftLegMesh: {fileID: 1908981683980713483, guid: 7a56ddb485fbf604cbdd7871b4097546, type: 3}
+  mat: {fileID: 2100000, guid: 710aa0003bf0f664cb866017d78c79e7, type: 2}

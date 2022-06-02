@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef386bdce5721604491e1804ead8378e, type: 3}
+  m_Name: Horn
+  m_EditorClassIdentifier: 
+  cost: 3
+  shopSprite: {fileID: 21300000, guid: 42140f636548da94291f3b7618d01157, type: 3}
+  itemName: item.horn
+  collectableGO: {fileID: 2486201888422134535, guid: 3d2b9ba3ef7b65d44aabbb65aaa7516c, type: 3}
+  spriteOK: {fileID: 21300000, guid: 42140f636548da94291f3b7618d01157, type: 3}
+  spriteNull: {fileID: 21300000, guid: 6a53b44d83308fd45b94a02506bd4c80, type: 3}
+  particle: {fileID: 5860375284448188096, guid: 3f33081f11e177547b446178f2655ec7, type: 3}

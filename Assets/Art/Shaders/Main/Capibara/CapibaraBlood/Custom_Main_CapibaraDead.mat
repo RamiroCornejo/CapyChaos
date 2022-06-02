@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Main_CapibaraDead
+  m_Shader: {fileID: 4800000, guid: 9dd550f28e9cc4249819a8ea63c41f2a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: fcd106bc603668b43ac7a1d75213c020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture1:
+        m_Texture: {fileID: 2800000, guid: fcd106bc603668b43ac7a1d75213c020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: e706a2fc16732c7468d8e880eb349865, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _OffsetShadow: 0
+    - _Shadow: 0
+    - _Shadow1: 0
+    - _ShadowGradiant: 50
+    - _ShadowGradiant1: 50
+    - _UseTexture: 1
+    - _WidthOutline: 0.1
+    - _WidthOutline1: 0.1
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _DetailColor: {r: 1, g: 0, b: 0, a: 0}
+    - _InnerShadow: {r: 0, g: 0, b: 0, a: 0}
+    - _InnerShadow1: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor1: {r: 1, g: 1, b: 1, a: 0}
+    - _OutlienColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlienColor1: {r: 0, g: 0, b: 0, a: 0}
+    - _PosSun: {r: 0, g: 0, b: 0, a: 0}
+    - _PosSun1: {r: 0, g: 0, b: 0, a: 0}
+    - _TillingDetail: {r: 2, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []

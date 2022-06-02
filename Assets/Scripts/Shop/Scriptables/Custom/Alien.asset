@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5fe272d7a16f84b956dcc7037721bf, type: 3}
+  m_Name: Alien
+  m_EditorClassIdentifier: 
+  cost: 5
+  shopSprite: {fileID: 21300000, guid: 7e57867b670c23b45a7d0b597f3b395d, type: 3}
+  itemName: item.alien
+  headMesh: {fileID: -2975092120784427447, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  bodyMesh: {fileID: -591166829840232792, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  rightArmMesh: {fileID: -6285165889134404470, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  leftArmMesh: {fileID: -6285165889134404470, guid: 60a2844d6c63a314b9e50549624c74a8, type: 3}
+  rightLegMesh: {fileID: 1908981683980713483, guid: 7a56ddb485fbf604cbdd7871b4097546, type: 3}
+  leftLegMesh: {fileID: 1908981683980713483, guid: 7a56ddb485fbf604cbdd7871b4097546, type: 3}
+  mat: {fileID: 2100000, guid: 2fb94ce9a6fe2dd4894e4d18eb23b3e1, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef386bdce5721604491e1804ead8378e, type: 3}
+  m_Name: Mate
+  m_EditorClassIdentifier: 
+  cost: 3
+  shopSprite: {fileID: 21300000, guid: 7825232ac31637644944a7b553db84c2, type: 3}
+  itemName: item.mate
+  collectableGO: {fileID: 2864359037463212233, guid: 15418ed1e5d7aea42a2084d9b93abd4b, type: 3}
+  spriteOK: {fileID: 21300000, guid: 7825232ac31637644944a7b553db84c2, type: 3}
+  spriteNull: {fileID: 21300000, guid: 94e8366c8afc0074a91852c09b393f30, type: 3}
+  particle: {fileID: 6468474445830517909, guid: ce4d72694149ade48bcf59555897956e, type: 3}

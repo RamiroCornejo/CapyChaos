@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef386bdce5721604491e1804ead8378e, type: 3}
+  m_Name: Onigiri
+  m_EditorClassIdentifier: 
+  cost: 3
+  shopSprite: {fileID: 21300000, guid: 1f52d740176d5604481054fe562851d9, type: 3}
+  itemName: item.onigiri
+  collectableGO: {fileID: 191987540280108052, guid: b6f3d7e76a186524a9cd1c2fa2238b05, type: 3}
+  spriteOK: {fileID: 21300000, guid: 1f52d740176d5604481054fe562851d9, type: 3}
+  spriteNull: {fileID: 21300000, guid: 9a1ca71ce6203524e830d850c54d7efb, type: 3}
+  particle: {fileID: 3639546232649988024, guid: daa010d39a42d7d45a7952801d6cf87a, type: 3}

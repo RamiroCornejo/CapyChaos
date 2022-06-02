@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef386bdce5721604491e1804ead8378e, type: 3}
+  m_Name: Potion
+  m_EditorClassIdentifier: 
+  cost: 3
+  shopSprite: {fileID: 21300000, guid: 8db59e1e429bf0b4cab82e07e3c54610, type: 3}
+  itemName: item.potion
+  collectableGO: {fileID: 6185669259413802607, guid: 4f02c96b07bd26749ab41b2940a2641d, type: 3}
+  spriteOK: {fileID: 21300000, guid: 8db59e1e429bf0b4cab82e07e3c54610, type: 3}
+  spriteNull: {fileID: 21300000, guid: 58f0befc5a5c1774e9e1ae7890c53580, type: 3}
+  particle: {fileID: 2486957428094378021, guid: d7f493a0f41990b4aa0ae15e632cb517, type: 3}

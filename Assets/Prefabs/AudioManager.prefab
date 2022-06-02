@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4372470466294696498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5247629678290701851}
+  - component: {fileID: 7229373951467252675}
+  - component: {fileID: 3897589354757588529}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5247629678290701851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372470466294696498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7229373951467252675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372470466294696498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b4ecd3890cd504594d5a8978cfabea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixer: {fileID: 24300002, guid: c177ab977244fa9459139bde81a8df7f, type: 2}
+--- !u!114 &3897589354757588529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372470466294696498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619919daa0b6e7d4eb1b96b9fbc961bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pinche_Open: {fileID: 8300000, guid: 36f35ba16307ce84c8efe8cc28130b41, type: 3}
+  Pinche_Close: {fileID: 8300000, guid: 1a62ac5e05df6e540a95ffb946b0e204, type: 3}
+  DoorStartMovement: {fileID: 8300000, guid: 961cde12ca207504a9b32498a7bb09e2, type: 3}
+  DoorStopMovement: {fileID: 8300000, guid: 0ce3208fdd867b34eb9c94dff9b536af, type: 3}
+  TouchHandle_Go: {fileID: 8300000, guid: a8af40854b60883499f09148c9832016, type: 3}
+  TouchHandle_Back: {fileID: 8300000, guid: cefffe735ddddf849b379f93f26ce4c9, type: 3}
+  Cut_the_rope: {fileID: 8300000, guid: 4c2b5e9bfef9ed34d81d76df81a6da01, type: 3}
+  saw_hit_someting: {fileID: 0}
+  saw_hit_capi: {fileID: 0}
+  shooter_shoot: {fileID: 8300000, guid: de6b356a1feb47645b540eb4770d0028, type: 3}
+  arrow_hit_and_destroy: {fileID: 8300000, guid: 5e4e4968182e51f4d91f6aae3b4aa517, type: 3}
+  arrow_Sticks: {fileID: 8300000, guid: ff8614e587d99dd448d70bc8237c95b1, type: 3}
+  arrow_hit_capi: {fileID: 8300000, guid: 6ac3390f5b908f64798462bd7b10d6d0, type: 3}
+  tic: {fileID: 8300000, guid: c62f68214a5f3804b93ed81f20c8d057, type: 3}
+  tac: {fileID: 8300000, guid: a02ebc8062ca35443a4239a398c33b0c, type: 3}
+  leaves_touch: {fileID: 8300000, guid: d887be87fbbd462489dc6591cafdfdb2, type: 3}
+  capi_button_touch_begin: {fileID: 8300000, guid: 6a6274de6f00bda4fb8bdaa6d969dd49, type: 3}
+  capi_button_touch_end: {fileID: 8300000, guid: 42398c57faa800c4e831ba3ecab76bcb, type: 3}
+  capi_recolect: {fileID: 8300000, guid: 4ab14a24140f6bf458ff05390d2f9450, type: 3}
+  capi_SplashWater: {fileID: 8300000, guid: fade9ec64c69b3744a6698d265af75c9, type: 3}
+  capi_leaves_move: {fileID: 8300000, guid: 831c51a910fc69b49969436ea186a353, type: 3}
+  begin_drag_wood: {fileID: 8300000, guid: bcd2a12f05e96a941a489ecb3410aee5, type: 3}
+  end_drag_wood: {fileID: 8300000, guid: 4df4d23c9354e0b49aea2adeab95e5e3, type: 3}
+  begin_drag_steel: {fileID: 8300000, guid: 4a69e4adfa96b0e4f9a437ce7a87343d, type: 3}
+  end_drag_steel: {fileID: 8300000, guid: c5d61f0972a11214bb97ab35ac6839c1, type: 3}
+  Blood_Splash: {fileID: 8300000, guid: 45857033f4638c9478da55c696759845, type: 3}
+  capi_death: {fileID: 8300000, guid: d35396616638913428edd52e2fc48a07, type: 3}
+  capi_footsepA: {fileID: 8300000, guid: f50c76855dc2b4543896fbcc7d6ae091, type: 3}
+  capi_footsepB: {fileID: 8300000, guid: 0e033292a186d814695270400f30f23c, type: 3}
+  capi_spawn: {fileID: 8300000, guid: 99524e7f71360e04cba12f190d4e3dd6, type: 3}
+  capi_sucessfull: {fileID: 8300000, guid: 185561d407b54ae4eb69e48f2c625e2d, type: 3}
+  ui_mouse_over: {fileID: 8300000, guid: 17e00d388c9295f42901c3b57afcf5cf, type: 3}
+  ui_click_simple: {fileID: 8300000, guid: 582fd903c68a39141810abc56fae15f8, type: 3}
+  ui_click_double: {fileID: 8300000, guid: e6ea939bd79c9404998247c44a3825a7, type: 3}
+  ui_Transition_01: {fileID: 8300000, guid: 887d63921807b4e45a3a6bc65d2fe096, type: 3}
+  ui_Transition_02: {fileID: 8300000, guid: 9cc9afc9ae4cca449ba6398a19fe324a, type: 3}
+  ui_Transition_03: {fileID: 8300000, guid: 9303ff71d70989b4daf4a52c0fc93d3d, type: 3}
+  ui_Bird_On: {fileID: 8300000, guid: 60dedc4099edcce4c83bc8264cfdb18a, type: 3}
+  ui_Bird_Off: {fileID: 8300000, guid: 13ac676bb95390748872f9e0b5fe64b3, type: 3}
+  gameWin: {fileID: 8300000, guid: f1239dbe2d12d26469b7bdd1a44f69ec, type: 3}
+  gameLose: {fileID: 8300000, guid: cd1eea8cfebfc3b4092d81991e4d08d4, type: 3}
+  Glitter_Normal: {fileID: 8300000, guid: 5c30d8e31543ebd4cacc70ad42743efe, type: 3}
+  Glitter_Long: {fileID: 8300000, guid: 589fad60f1789624fa42e206a2a43789, type: 3}
